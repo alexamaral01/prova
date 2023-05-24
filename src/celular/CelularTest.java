@@ -5,5 +5,3 @@ public class CelularTest {
         System.out.println("Hello, World! Rafael");
     }
 }
-
-
