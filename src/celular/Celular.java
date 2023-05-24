@@ -1,11 +1,12 @@
 package celular;
+
 public class Celular {
     
     private int ddd;
-    private int numero;
+    private String numero;
 
 
-    public Celular(int ddd, int numero){
+    public Celular(int ddd, String numero){
         this.ddd = ddd;
         this.numero = numero;
     }
@@ -16,7 +17,7 @@ public class Celular {
     }
 
 
-    public int getNumero() {
+    public String getNumero() {
         return numero;
     }
 }
